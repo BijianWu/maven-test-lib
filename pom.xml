@@ -16,6 +16,15 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub BijianWu Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/BijianWu/maven-test-lib</url>
+		</repository>
+	</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
